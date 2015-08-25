@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<units>
+
+	<tower type="simpleTower" tier="1">
+		<level num="1">
+			<name          value="Gunner" />
+			<fireType      value="ft_point" />
+			<maxLevel      value="2" />
+			<cost          value="50" />
+			<upgradeCost   value="150" />
+			<damage        value="1" />
+			<range         value="170" />
+			<reloadTime    value="1" />
+			<fireSoundName value="LaserFire" />
+			<image         value="TowerSprite01" />
+			<bulletImage   value="SimpleBullet" />
+			<shopImage     value="TowerSprite01" />
+		</level>
+		<level num="2">
+			<cost         value="60" />
+			<damage       value="1" />
+			<range        value="180" />
+			<reloadTime   value="0.7" />
+			<image        value="TowerSprite02" />
+		</level>
+	</tower>
+	
+	<tower type="beamTower" tier="1">
+		<level num="1">
+			<name         value="Beam Tower" />
+			<fireType     value="ft_beam" />
+			<cost         value="50" />
+			<damage       value="1" />
+			<range        value="170" />
+			<reloadTime   value="1" />
+			<image        value="Laser01" />
+			<fireSoundName value="BeamSound" />
+			<slowEffect   value="0.5" />
+			<slowDuration value="2" />
+			<shopImage    value="Laser01" />
+		</level>
+		<level num="2">
+			<cost         value="120" />
+			<damage       value="2.2" />
+			<range        value="180" />
+			<reloadTime   value="0.7" />
+			<image        value="Laser01" />
+		</level>
+	</tower>
+	
+	<tower type="cannonTower" tier="1">
+		<level num="1">
+			<name         value="Cannon Tower" />
+			<fireType     value="ft_point" />
+			<cost         value="65" />
+			<damage       value="4" />
+			<range        value="130" />
+			<reloadTime   value="4" />
+			<image        value="Cannon01" />
+			<bulletImage  value="Bullet01" />
+			<shopImage    value="Cannon01" />
+			<splash       value="true" />
+			<splashRange  value="60" />
+		</level>
+	</tower>
+
+	
+	<creep type="goat_00" >
+		<rewardMoney	value="3" />
+		<health      	value="4" />		
+		<speed       	value="50" />
+		<image       	value="goat" />
+	</creep>
+	<creep type="croco_00">
+		<rewardMoney	value="10" />
+		<health      	value="15" />		
+		<maxHealth      value="15" />		
+		<speed       	value="25" />
+		<image       	value="croco" />
+	</creep>
+	<creep type="deer_00">
+		<rewardMoney	value="5" />
+		<health      	value="6" />		
+		<maxHealth      value="6" />		
+		<speed       	value="50" />
+		<image       	value="deer" />
+	</creep>
+	<creep type="duck_00">
+		<rewardMoney	value="2" />
+		<health      	value="1" />	
+		<maxHealth      value="1" />
+		<speed       	value="70" />
+		<image       	value="duck" />
+	</creep>
+	
+	<block type="simpleBlock">
+		<cost>5</cost>
+	</block>
+</units>
